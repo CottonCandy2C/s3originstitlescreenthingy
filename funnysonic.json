@@ -1,0 +1,40 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Logo",
+      "Elements": [
+        {
+          "Name": "Logo",
+          "Description": [
+            "Choose which logo to display on the menu"
+          ],
+          "DisplayName": "Logo",
+          "Type": "Logo",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\S3\\"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "SoundtrackEnum": [
+      {
+        "DisplayName": "Sonic 3",
+        "Value": ".\\S3\\",
+        "Description": [
+          "Changes the logo on the main menu to the Sonic 3 logo."
+        ]
+      },
+      {
+        "DisplayName": "Sonic & Knuckles",
+        "Value": ".\\S&K\\",
+        "Description": [
+          "Changes the logo on the main menu to the Sonic & Knuckles logo."
+        ]
+      }
+    ]
+  },
+  "IniFile": "mod.ini"
+}
